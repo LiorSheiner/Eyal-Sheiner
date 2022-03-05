@@ -200,7 +200,7 @@ p{
     font-size: 22px;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1200px){
 
     header{
         position: absolute;
@@ -229,9 +229,13 @@ p{
         padding: 15px 0;
         margin: 0;
     }
-    .about, .clinic, .research{
+    .about, .research{
         flex-direction: column;
         justify-content:flex-start;
         align-items:center    
+    }
+    .clinic{
+        display: flex;
+
     }
 }
