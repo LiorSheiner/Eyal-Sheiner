@@ -152,7 +152,7 @@ img .keren{
     margin: 50px;
 }
 iframe{
-    width: 100%;
+    width: 100vw;
     height: 90vh;
 }
 #clinic{
@@ -228,6 +228,7 @@ p{
     } */
     .homepage{
         background-position: center;
+        background-size: 300px;
     }
     .about, .research{
         flex-direction: column;
@@ -252,4 +253,13 @@ p{
         width: 80vw;
         height: 40vh;
     }
+    .about p, .research p, #clinic p{
+        font-size: 35px;
+        max-width: 50ch;
+    }
+    h3{
+        font-size: 45px;
+    }
+    
 }
+
