@@ -95,7 +95,6 @@ h3{
 .flex-container{
     display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
 
 }
 .flex-container img{
@@ -107,9 +106,7 @@ h3{
 }
 .flex-container-text{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
+    flex-direction: row;  
     
 }
 
@@ -202,7 +199,7 @@ p{
 
 @media screen and (max-width: 1200px){
 
-    header{
+    /* header{
         position: absolute;
     }
 
@@ -221,17 +218,17 @@ p{
 
     nav:hover ul{
         display: block;
-    }
+    } */
 
-    nav li{
+    /* nav li{
         text-align: center;
         width: 100%;
         padding: 15px 0;
         margin: 0;
-    }
+    } */
     .about, .research{
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content:center;
         align-items:center    
     }
     .clinic{
