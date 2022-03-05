@@ -240,11 +240,15 @@ p{
     }
     .flex-container{
         flex-direction: column;
+    }
+    .flex-container img{
         width: 100vh;
         height: 40vh;
     }
     .flex-container-text{
         flex-direction: column;
+    }
+    .flex-container-text p{
         width: 80vh;
     }
 }
