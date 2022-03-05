@@ -227,8 +227,9 @@ p{
         margin: 0;
     } */
     .homepage{
-        background-position: center;
-        background-size: 300px;
+            background-position: center;
+            background-size:auto;
+            height: 60vh
     }
     .about, .research{
         flex-direction: column;
