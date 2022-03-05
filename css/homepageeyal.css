@@ -253,6 +253,11 @@ p{
     .flex-container-text p{
         width: 80vw;
         height: 40vh;
+        color: black;
+        margin-top: -700px;
+        font-size: 55px;
+        font-weight: bold;
+        text-align:center
     }
     .about p, .research p, #clinic p{
         font-size: 35px;
