@@ -238,4 +238,13 @@ p{
         display: flex;
 
     }
+    .flex-container{
+        flex-direction: column;
+        width: 100vh;
+        height: 40vh;
+    }
+    .flex-container-text{
+        flex-direction: column;
+        width: 80vh;
+    }
 }
