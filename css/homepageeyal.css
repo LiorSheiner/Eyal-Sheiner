@@ -226,6 +226,9 @@ p{
         padding: 15px 0;
         margin: 0;
     } */
+    .homepage{
+        background-size: contain;
+    }
     .about, .research{
         flex-direction: column;
         justify-content:center;
@@ -247,5 +250,6 @@ p{
     }
     .flex-container-text p{
         width: 80vh;
+        height: 40vh;
     }
 }
