@@ -44,7 +44,7 @@ nav{
     background-image: url("../img/eyalmain.jpg");
     background-size:cover;
     height: 150vh;
-    width: 100%;
+    width: 100vw;
     
 }
 
@@ -227,7 +227,7 @@ p{
         margin: 0;
     } */
     .homepage{
-        background-size: contain;
+        background-position: center;
     }
     .about, .research{
         flex-direction: column;
@@ -242,14 +242,14 @@ p{
         flex-direction: column;
     }
     .flex-container img{
-        width: 100%;
+        width: 100vw;
         height: 40vh;
     }
     .flex-container-text{
         flex-direction: column;
     }
     .flex-container-text p{
-        width: 80vh;
+        width: 80vw;
         height: 40vh;
     }
 }
